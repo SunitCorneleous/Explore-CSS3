@@ -1,0 +1,38 @@
+/* nav style */
+nav {
+  margin: 0 auto;
+  width: 40%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+/* nav style end here */
+
+.container,
+.box {
+  height: 150px;
+  width: 150px;
+
+  border: 2px solid khaki;
+}
+
+.container {
+  background-color: lightblue;
+}
+
+.box {
+  background-color: lightcoral;
+  transform: translate(50px, 50px) scale(0.7) rotate(45deg);
+}

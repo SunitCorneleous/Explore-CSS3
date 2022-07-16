@@ -1,0 +1,99 @@
+/* nav style */
+nav {
+  margin: 0 auto;
+  width: 40%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+/* nav style end here */
+
+.box-container {
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+
+  border: 1px solid #000;
+
+  margin: 50px;
+}
+
+#box-1 {
+  background-color: khaki;
+}
+
+#box-1:hover {
+  display: none;
+}
+#box-2:hover {
+  display: none;
+}
+#box-3:hover {
+  display: none;
+}
+#box-4:hover {
+  display: none;
+}
+
+#box-2 {
+  background-color: grey;
+
+  /* visibility: hidden; */
+  /* display: none; */
+}
+#box-3 {
+  background-color: mediumpurple;
+}
+#box-4 {
+  background-color: royalblue;
+}
+
+.blog-1 {
+  height: 600px;
+  width: 500px;
+
+  border: 5px solid rgb(110, 0, 0);
+
+  overflow-y: scroll;
+
+  margin: 10px;
+}
+
+.blog-2 {
+  height: 600px;
+  width: 500px;
+
+  border: 5px solid rgb(51, 0, 110);
+
+  overflow-y: scroll;
+
+  margin: 10px;
+}
+
+.mini-box {
+  width: 100px;
+
+  border: 5px solid red;
+}
+
+.text-area {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
